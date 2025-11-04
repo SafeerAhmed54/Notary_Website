@@ -9,6 +9,9 @@
 </head>
 
 <body>
+
+    <!-- Navigation -->
+
     <nav class="grid grid-auto p-25 align-center">
         <div class="left-side">
             <img src="images/blue-logo.svg" alt="logo.png">
@@ -21,10 +24,16 @@
             <button id="contact-button" class="bg-white border-radius-10">Contact</button>
         </div>
     </nav>
-    <main id="main-page" class="grid grid-50-50">
+
+    <!-- Main Page -->
+
+    <section id="main-page" class="grid grid-50-50">
         <div id="left-side-main" class="bg-transparent p-100 h-500 flex flex-col justify-center">
-            <p class="main-logo bg-light text-primary font-20 font-arial font-weight-500 mb-20 border-radius-20 p-5 text-center">Notary Services</p>
-            <h1 class="font-48 font-arial font-weight-700 text-dark mb-10">Hire <span class="highlight">Better Faster</span></h1>
+            <p
+                class="main-logo bg-light text-primary font-20 font-arial font-weight-500 mb-20 border-radius-20 p-5 text-center">
+                Notary Services</p>
+            <h1 class="font-48 font-arial font-weight-700 text-dark mb-10">Hire <span class="highlight">Better
+                    Faster</span></h1>
             <h1 class="font-48 font-arial font-weight-700 text-dark mb-20">Legal talent</h1>
             <p class="text-gray font-16 mb-30">When you need us for improve your business,
                 then come with us to help your business
@@ -41,88 +50,375 @@
                         <tr>
                             <td class="p-10">
                                 <label for="name" class="font-arial font-weight-500 font-14">Full Name</label><br>
-                                <input type="text" name="name" id="name" placeholder="Enter Full Name" class="form-input col-100" style="height: 40px;">
+                                <input type="text" name="name" id="name" placeholder="Enter Full Name"
+                                    class="form-input col-100" style="height: 40px;">
                             </td>
                         </tr>
                         <tr>
                             <td class="p-10">
                                 <label for="email" class="font-arial font-weight-500 font-14">Email</label><br>
-                                <input type="email" name="email" id="email" placeholder="Enter Email Address" class="form-input col-100" style="height: 40px;">
+                                <input type="email" name="email" id="email" placeholder="Enter Email Address"
+                                    class="form-input col-100" style="height: 40px;">
                             </td>
                         </tr>
                         <tr>
                             <td class="p-10">
                                 <label for="phone" class="font-arial font-weight-500 font-14">Phone Number</label><br>
-                                <input type="tel" name="phone" id="phone" placeholder="Enter Phone Number" class="form-input col-100" style="height: 40px;">
+                                <input type="tel" name="phone" id="phone" placeholder="Enter Phone Number"
+                                    class="form-input col-100" style="height: 40px;">
                             </td>
                         </tr>
                         <tr>
                             <td class="p-10">
                                 <label for="message" class="font-arial font-weight-500 font-14">Message</label><br>
-                                <textarea name="message" id="message" placeholder="Enter Message" class="form-input col-100" style="height: 40px; padding: 5px;"></textarea>
+                                <textarea name="message" id="message" placeholder="Enter Message"
+                                    class="form-input col-100" style="height: 40px; padding: 5px;"></textarea>
                             </td>
                         </tr>
                         <tr>
                             <td class="p-10">
-                                <input type="submit" id="submit" name="submit" class="btn btn-primary col-100 h-30 font-14">
+                                <input type="submit" id="submit" name="submit"
+                                    class="btn btn-primary col-100 h-30 font-14">
                             </td>
                         </tr>
                     </table>
                 </form>
             </div>
         </div>
-    </main>
-    <div class="main-trusted-partners col-100 h-250 bg-blue p-10 grid align-center" style="grid-template-columns: 10% 80% 10%; justify-content: space-between;">
+    </section>
+
+    <!-- Partner Section -->
+
+    <section class="main-trusted-partners col-100 h-250 bg-blue p-10 grid align-center"
+        style="grid-template-columns: 10% 80% 10%; justify-content: space-between;">
         <div id="left-img">
-            <img src="/images/left.png" alt="left.png" >
+            <img src="/images/left.png" alt="left.png">
         </div>
-        
+
         <div class="trusted-partners col-50 flex flex-row justify-around align-center mx-auto">
-            <table>
+            <table class="table-spacing">
                 <caption class="text-white font-arial font-weight-700 font-26 m-20">Trusted Partners</caption>
                 <tr>
-                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
-                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
-                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
-                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
-                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
-                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td class="text-center"><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td class="text-center"><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td class="text-center"><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td class="text-center"><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td class="text-center"><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td class="text-center"><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
                 </tr>
                 <tr>
-                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
-                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
-                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
-                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
-                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
-                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
+                    <td>
+                        <p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p>
+                    </td>
+                    <td>
+                        <p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p>
+                    </td>
+                    <td>
+                        <p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p>
+                    </td>
+                    <td>
+                        <p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p>
+                    </td>
+                    <td>
+                        <p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p>
+                    </td>
+                    <td>
+                        <p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p>
+                    </td>
                 </tr>
             </table>
         </div>
         <div id="right-img-div">
             <img src="/images/right.png" alt="right.svg" id="right-img">
         </div>
-    </div>
-    <div id="about-section" class="flex flex-row" style="gap: 50px;">
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about-section" class="flex flex-row" style="gap: 50px;">
         <div id="about-section-img" class="col-50 h-600">
-            <img src="/images/arbi.png" alt="Me.png" class="mx-auto mt-100" style="display: block;">
+            <img src="/images/arbi.png" alt="Me.png" class="ml-auto mt-10per" style="display: block;">
         </div>
         <div id="about-section-detail" class="col-55 mt-1 p-100">
             <p class="one font-arial font-weight-500 font-16">ONE YEAR ALL YOU NEED</p>
             <h1 class="font-arial font-weight-700 mt-30 mb-30">About Us</h1>
-            <p class="paragraph-about font-arial font-weight-500 font-16 mt-40 mb-40" style="word-spacing: 5px; line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Neque architecto laudantium, nam dolorem, nihil vero placeat 
-                sapiente sunt alias voluptatum soluta temporibus autem consequuntur 
+            <p class="paragraph-about font-arial font-weight-500 font-16 mt-40 mb-40"
+                style="word-spacing: 5px; line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Neque architecto laudantium, nam dolorem, nihil vero placeat
+                sapiente sunt alias voluptatum soluta temporibus autem consequuntur
                 dolor labore officiis est. Aperiam, optio!
             </p>
-            <p class="paragraph-about font-arial font-weight-500 font-16 mt-40 mb-40" style="word-spacing: 5px; line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Neque architecto laudantium, nam dolorem, nihil vero placeat 
-                sapiente sunt alias voluptatum soluta temporibus autem consequuntur 
+            <p class="paragraph-about font-arial font-weight-500 font-16 mt-40 mb-40"
+                style="word-spacing: 5px; line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Neque architecto laudantium, nam dolorem, nihil vero placeat
+                sapiente sunt alias voluptatum soluta temporibus autem consequuntur
                 dolor labore officiis est. Aperiam, optio!
             </p>
-            <button class="hire-button-about col-40 h-20 bg-secondary border-radius-5 text-white btn" style="font-size: large; border-color: transparent;">Hire Now</button>
+            <button class="hire-button-about col-40 h-20 bg-secondary border-radius-5 text-white btn"
+                style="font-size: large; border-color: transparent;">Hire Now</button>
         </div>
-    </div>
+    </section>
 
+    <!-- Service Section -->
+
+    <section class="services-section">
+        <div>
+            <h1 class="font-arial text-center mt-50 mb-10">
+                Services We Are Providing
+            </h1>
+            <p class="text-center font-arial">Lorem When you need us for improve
+                your business, then come with us <br>
+                to help your business have reach it you
+                just sit and feel that goal.</p>
+            <div class="services-div flex flex-row flex-wrap flex-center gap-column-10 gap-row-10 m-50 col-80 mx-auto">
+                <div class="service-block border-radius-5">
+                    <figure class="flex flex-col flex-center col-100 h-100 gap-row-10">
+                        <img src="/images/service.png" alt="services.png">
+                        <figcaption class="font-arial font-16 text-center font-weight-700">Mobile Notary <br>Services
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="service-block border-radius-5">
+                    <figure class="flex flex-col flex-center col-100 h-100 gap-row-10">
+                        <img src="/images/service.png" alt="services.png">
+                        <figcaption class="font-arial font-16 text-center font-weight-700">Mobile Notary <br>Services
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="service-block border-radius-5">
+                    <figure class="flex flex-col flex-center col-100 h-100 gap-row-10">
+                        <img src="/images/service.png" alt="services.png">
+                        <figcaption class="font-arial font-16 text-center font-weight-700">Mobile Notary <br>Services
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="service-block border-radius-5">
+                    <figure class="flex flex-col flex-center col-100 h-100 gap-row-10">
+                        <img src="/images/service.png" alt="services.png">
+                        <figcaption class="font-arial font-16 text-center font-weight-700">Mobile Notary <br>Services
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="service-block border-radius-5">
+                    <figure class="flex flex-col flex-center col-100 h-100 gap-row-10">
+                        <img src="/images/service.png" alt="services.png">
+                        <figcaption class="font-arial font-16 text-center font-weight-700">Mobile Notary <br>Services
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="service-block border-radius-5">
+                    <figure class="flex flex-col flex-center col-100 h-100 gap-row-10">
+                        <img src="/images/service.png" alt="services.png">
+                        <figcaption class="font-arial font-16 text-center font-weight-700">Mobile Notary <br>Services
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="service-block border-radius-5">
+                    <figure class="flex flex-col flex-center col-100 h-100 gap-row-10">
+                        <img src="/images/service.png" alt="services.png">
+                        <figcaption class="font-arial font-16 text-center font-weight-700">Mobile Notary <br>Services
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="service-block border-radius-5">
+                    <figure class="flex flex-col flex-center col-100 h-100 gap-row-10">
+                        <img src="/images/service.png" alt="services.png">
+                        <figcaption class="font-arial font-16 text-center font-weight-700">Mobile Notary <br>Services
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <h2 class="font-arial text-center mt-50 mb-10">
+                Prices Increasing Soon
+            </h2>
+            <p class="text-center font-arial mb-40">Lorem When you need us for improve
+                your business, then come with us <br>
+                to help your business have reach it you
+                just sit and feel that goal.</p>
+        </div>
+    </section>
+
+    <!-- Client Section -->
+
+    <section class="client-section mt-50 mb-50">
+        <div>
+            <div class="client-section-div bg-light p-10">
+                <div>
+                    <h1 class="font-arial text-center mt-50 mb-10">
+                        What Client Says About Us
+                    </h1>
+                    <p class="text-center font-arial mb-40">Lorem When you need us for improve
+                        your business, then come with us <br>
+                        to help your business have reach it you
+                        just sit and feel that goal.</p>
+                </div>
+                <div class="client-card-container flex flex-row justify-center gap-column-15 mb-40">
+                    <div class="client-card border-radius-5 box-shadow">
+                        <div class="header p-15 flex flex-row justify-content-space-between">
+                            <div class="stars-container flex flex-row gap-column-5 align-self-center">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                            </div>
+                            <div class="google-logo-container">
+                                <img src="/images/google.svg" alt="google">
+                            </div>
+                        </div>
+                        <div class="client-review-content p-15">
+                            <p class="mt-10 mb-10 testimonial">1 month ago</p>
+                            <p class="mt-10 mb-10 text-align-justify testimonial">When you need us for improve
+                                your business, then come with us
+                                to help your business have reach it you
+                                just sit and feel that goal.
+                            </p>
+                            <p class=" mt-10 mb-10 testimonial font-weight-700">
+                                Jhon Doe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="client-card border-radius-5 box-shadow">
+                        <div class="header p-15 flex flex-row justify-content-space-between">
+                            <div class="stars-container flex flex-row gap-column-5 align-self-center">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                            </div>
+                            <div class="google-logo-container">
+                                <img src="/images/google.svg" alt="google">
+                            </div>
+                        </div>
+                        <div class="client-review-content p-15">
+                            <p class="mt-10 mb-10 testimonial">1 month ago</p>
+                            <p class="mt-10 mb-10 text-align-justify testimonial">When you need us for improve
+                                your business, then come with us
+                                to help your business have reach it you
+                                just sit and feel that goal.
+                            </p>
+                            <p class="testimonial mt-10 mb-10 font-weight-700">
+                                Jhon Doe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="client-card border-radius-5 box-shadow">
+                        <div class="header p-15 flex flex-row justify-content-space-between">
+                            <div class="stars-container flex flex-row gap-column-5 align-self-center">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                            </div>
+                            <div class="google-logo-container">
+                                <img src="/images/google.svg" alt="google">
+                            </div>
+                        </div>
+                        <div class="client-review-content p-15">
+                            <p class="mt-10 mb-10 testimonial">1 month ago</p>
+                            <p class="mt-10 mb-10 text-align-justify testimonial">When you need us for improve
+                                your business, then come with us
+                                to help your business have reach it you
+                                just sit and feel that goal.
+                            </p>
+                            <p class=" mt-10 mb-10 testimonial font-weight-700">
+                                Jhon Doe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="client-card border-radius-5 box-shadow">
+                        <div class="header p-15 flex flex-row justify-content-space-between">
+                            <div class="stars-container flex flex-row gap-column-5 align-self-center">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                            </div>
+                            <div class="google-logo-container">
+                                <img src="/images/google.svg" alt="google">
+                            </div>
+                        </div>
+                        <div class="client-review-content p-15">
+                            <p class="mt-10 mb-10 testimonial">1 month ago</p>
+                            <p class="mt-10 mb-10 text-align-justify testimonial">When you need us for improve
+                                your business, then come with us
+                                to help your business have reach it you
+                                just sit and feel that goal.
+                            </p>
+                            <p class=" mt-10 mb-10 testimonial font-weight-700">
+                                Jhon Doe
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section-->
+
+    <section class="why-us-section">
+        <div>
+            <div class="">
+                <div>
+                    <h1 class="font-arial text-center mt-50">
+                        Why Choose Us
+                    </h1>
+                    <p class="text-center font-arial mb-40">Lorem When you need us for improve
+                        your business, then come with us <br>
+                        to help your business have reach it you
+                        just sit and feel that goal.</p>
+                </div>
+                <div class="grid grid-area-choose mx-auto justify-center">
+                    <div class="why-us-detail-section1">
+                        <img src="/images/choose.svg" alt="choose.png">
+                        <p class="mt-20 mb-10 testimonial-without font-weight-700">Quality</p>
+                        <p class="text-align-justify testimonial">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit.<br>
+                            Facere consectetur, minima et nulla totam ad cupiditate dolori<br>
+                            bus optio commodi iusto quia.
+                        </p>
+                    </div>
+                    <div class="why-us-image-section">
+                        <img src="/images/choose-user.png" alt="user.png">
+                    </div>
+                    <div class="why-us-detail-section2">
+                        <img src="/images/choose.svg" alt="choose.png">
+                        <p class="mt-20 mb-10 testimonial-without font-weight-700">Quality</p>
+                        <p class="text-align-justify testimonial">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit.<br>
+                            Facere consectetur, minima et nulla totam ad cupiditate dolori<br>
+                            bus optio commodi iusto quia.
+                        </p>
+                    </div>
+
+                    <div class="why-us-detail-section3">
+                        <img src="/images/choose.svg" alt="choose.png">
+                        <p class="mt-20 mb-10 testimonial-without font-weight-700">Quality</p>
+                        <p class="text-align-justify testimonial">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit.<br>
+                            Facere consectetur, minima et nulla totam ad cupiditate dolori<br>
+                            bus optio commodi iusto quia.
+                        </p>
+                    </div>
+                    <div class="why-us-detail-section4">
+                        <img src="/images/choose.svg" alt="choose.png">
+                        <p class="mt-20 mb-10 testimonial-without font-weight-700">Quality</p>
+                        <p class="text-align-justify testimonial">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit.<br>
+                            Facere consectetur, minima et nulla totam ad cupiditate dolori<br>
+                            bus optio commodi iusto quia.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

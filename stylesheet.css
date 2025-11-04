@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -86,6 +88,10 @@
     align-items: center;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .justify-center {
     justify-content: center;
 }
@@ -140,6 +146,10 @@
     padding: 100px;
 }
 
+.p-10per {
+    padding-top: 10%;
+}
+
 /* Margin Classes */
 .m-10 {
     margin: 10px;
@@ -157,6 +167,10 @@
     margin: 40px;
 }
 
+.m-50 {
+    margin: 50px;
+}
+
 .mt-1 {
     margin-top: 1px;
 }
@@ -165,8 +179,24 @@
     margin-top: 30px;
 }
 
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
 .mt-100 {
     margin-top: 100px;
+}
+
+.mt-1per {
+    margin-top: 1%;
+}
+
+.mt-10per {
+    margin-top: 10%;
 }
 
 .mb-10 {
@@ -183,6 +213,14 @@
 
 .mb-40 {
     margin-bottom: 40px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
 }
 
 .mx-auto {
@@ -344,6 +382,20 @@
     padding: 5px;
 }
 
+.p-15 {
+    padding: 15px;
+}
+
+/* Table spacing utilities */
+.table-spacing {
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+
+.table-spacing td {
+    padding: 15px;
+}
+
 /* ===== END UTILITY CLASSES ===== */
 
 nav {
@@ -469,3 +521,116 @@ nav {
 }
 
 /* About section styles now use utility classes */
+
+.service-block {
+    height: 200px;
+    width: 275px;
+    border: 1px solid #2563EB;
+}
+
+.block {
+    display: block;
+}
+
+.gap-row-10 {
+    row-gap: 10px;
+}
+
+.gap-column-10 {
+    column-gap: 10px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.client-card {
+    width: 250px;
+    height: fit-content;
+    background-color: white;
+}
+
+.gap-column-5 {
+    column-gap: 5px;
+}
+
+.gap-column-15 {
+    column-gap: 15px;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 30px #cecece;
+}
+
+.client-section-div {
+    width: 100%;
+    height: max-content;
+}
+
+.testimonial {
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    /* Adjust if needed */
+    font-size: small;
+}
+
+.testimonial-without{
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+
+.grid-template-column-3 {
+    grid-template-columns: 33% 33% 33%;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.grid-template-row-2{
+
+}
+
+.grid-area-choose{
+    grid-template-areas: 
+    "why-us-detail-section1 why-us-image-section why-us-detail-section2"
+    "why-us-detail-section3 why-us-image-section why-us-detail-section4";
+    gap: 3em;
+    padding: 5%;
+}
+
+.why-us-detail-section1{
+    grid-area: why-us-detail-section1;
+}
+
+.why-us-detail-section2{
+    grid-area: why-us-detail-section2;
+}
+
+.why-us-detail-section3{
+    grid-area: why-us-detail-section3;
+}
+
+.why-us-detail-section4{
+    grid-area: why-us-detail-section4;
+}
+
+.why-us-image-section{
+    grid-area: why-us-image-section;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
