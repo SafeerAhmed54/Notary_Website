@@ -9,62 +9,62 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="grid grid-auto p-25 align-center">
         <div class="left-side">
             <img src="images/blue-logo.svg" alt="logo.png">
         </div>
-        <div class="right-side">
-            <span id="lang-buttons">
-                <a id="lang-button-eng">english</a>
-                <a id="lang-button-arabic">arabic</a>
+        <div class="right-side grid grid-auto">
+            <span id="lang-buttons" class="grid grid-auto border-radius-15">
+                <a id="lang-button-eng" class="border-radius-15 p-5">english</a>
+                <a id="lang-button-arabic" class="border-radius-15 p-5">arabic</a>
             </span>
-            <button id="contact-button">Contact</button>
+            <button id="contact-button" class="bg-white border-radius-10">Contact</button>
         </div>
     </nav>
-    <main id="main-page">
-        <div id="left-side-main">
-            <p class="main-logo">Notary Services</p>
-            <h1>Hire <span class="highlight">Better Faster</span></h1>
-            <h1>Legal talent</h1>
-            <p>When you need us for improve your business,
+    <main id="main-page" class="grid grid-50-50">
+        <div id="left-side-main" class="bg-transparent p-100 h-500 flex flex-col justify-center">
+            <p class="main-logo bg-light text-primary font-20 font-arial font-weight-500 mb-20 border-radius-20 p-5 text-center">Notary Services</p>
+            <h1 class="font-48 font-arial font-weight-700 text-dark mb-10">Hire <span class="highlight">Better Faster</span></h1>
+            <h1 class="font-48 font-arial font-weight-700 text-dark mb-20">Legal talent</h1>
+            <p class="text-gray font-16 mb-30">When you need us for improve your business,
                 then come with us to help your business
                 have reach it, you just sit and feel that goal.
             </p>
-            <button id="hire-button">Hire Now</button>
+            <button id="hire-button" class="btn btn-secondary border-radius-8 font-16 col-30 h-30">Hire Now</button>
         </div>
-        <div id="right-side-main" style="background-image: url(/images/form-bg.png); background-position: right;">
-            <div id="right-side-block">
+        <div id="right-side-main" class="p-40">
+            <div id="right-side-block" class="card col-100 h-100 p-10">
                 <form action="">
-                    <table>
-                        <h2>Leads Form</h2>
-                        <caption>Fill the form for entry</caption>
+                    <table class="col-100">
+                        <h2 class="font-30 font-arial font-weight-500 text-center m-10">Leads Form</h2>
+                        <caption class="font-arial font-weight-500 m-10">Fill the form for entry</caption>
                         <tr>
-                            <td>
-                                <label for="name">Full Name</label><br>
-                                <input type="text" name="name" id="name" placeholder="Enter Full Name">
+                            <td class="p-10">
+                                <label for="name" class="font-arial font-weight-500 font-14">Full Name</label><br>
+                                <input type="text" name="name" id="name" placeholder="Enter Full Name" class="form-input col-100" style="height: 40px;">
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <label for="email">Email</label><br>
-                                <input type="email" name="email" id="email" placeholder="Enter Email Address">
+                            <td class="p-10">
+                                <label for="email" class="font-arial font-weight-500 font-14">Email</label><br>
+                                <input type="email" name="email" id="email" placeholder="Enter Email Address" class="form-input col-100" style="height: 40px;">
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <label for="phone">Phone Number</label><br>
-                                <input type="tel" name="phone" id="phone" placeholder="Enter Phone Number">
+                            <td class="p-10">
+                                <label for="phone" class="font-arial font-weight-500 font-14">Phone Number</label><br>
+                                <input type="tel" name="phone" id="phone" placeholder="Enter Phone Number" class="form-input col-100" style="height: 40px;">
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <label for="">Message</label><br>
-                                <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                            <td class="p-10">
+                                <label for="message" class="font-arial font-weight-500 font-14">Message</label><br>
+                                <textarea name="message" id="message" placeholder="Enter Message" class="form-input col-100" style="height: 40px; padding: 5px;"></textarea>
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <input type="submit" id="submit" name="submit">
+                            <td class="p-10">
+                                <input type="submit" id="submit" name="submit" class="btn btn-primary col-100 h-30 font-14">
                             </td>
                         </tr>
                     </table>
@@ -72,64 +72,29 @@
             </div>
         </div>
     </main>
-    <div class="main-trusted-partners">
+    <div class="main-trusted-partners col-100 h-250 bg-blue p-10 grid align-center" style="grid-template-columns: 10% 80% 10%; justify-content: space-between;">
         <div id="left-img">
             <img src="/images/left.png" alt="left.png" >
         </div>
         
-        <!-- <div class="trusted-partners">
-            <div class="tinygoon">
-                <img src="images/tinyGoon.PNG" alt="tinyGoon.png">
-                <p>Tinygoon</p>
-            </div>
-            <img src="images/tinyGoon.PNG" alt="tinyGoon.png">
-            <img src="images/tinyGoon.PNG" alt="tinyGoon.png">
-            <img src="images/tinyGoon.PNG" alt="tinyGoon.png">
-            <img src="images/tinyGoon.PNG" alt="tinyGoon.png">
-            <img src="images/tinyGoon.PNG" alt="tinyGoon.png">
-        </div> -->
-        <div class="trusted-partners">
+        <div class="trusted-partners col-50 flex flex-row justify-around align-center mx-auto">
             <table>
-                <caption>Trusted Partners</caption>
+                <caption class="text-white font-arial font-weight-700 font-26 m-20">Trusted Partners</caption>
                 <tr>
-                    <td>
-                        <img src="images/tinyGoon.PNG" alt="tinygoon">
-                    </td>
-                    <td>
-                        <img src="images/tinyGoon.PNG" alt="tinygoon">
-                    </td>
-                    <td>
-                        <img src="images/tinyGoon.PNG" alt="tinygoon">
-                    </td>
-                    <td>
-                        <img src="images/tinyGoon.PNG" alt="tinygoon">
-                    </td>
-                    <td>
-                        <img src="images/tinyGoon.PNG" alt="tinygoon">
-                    </td>
-                    <td>
-                        <img src="images/tinyGoon.PNG" alt="tinygoon">
-                    </td>
+                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
+                    <td><img src="images/tinyGoon.PNG" alt="tinygoon" class="trusted-logo"></td>
                 </tr>
                 <tr>
-                    <td>
-                        <p>TinyGoon</p>
-                    </td>
-                    <td>
-                        <p>TinyGoon</p>
-                    </td>
-                    <td>
-                        <p>TinyGoon</p>
-                    </td>
-                    <td>
-                        <p>TinyGoon</p>
-                    </td>
-                    <td>
-                        <p>TinyGoon</p>
-                    </td>
-                    <td>
-                        <p>TinyGoon</p>
-                    </td>
+                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
+                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
+                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
+                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
+                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
+                    <td><p class="text-white text-center font-arial font-weight-500 font-14">TinyGoon</p></td>
                 </tr>
             </table>
         </div>
@@ -137,24 +102,24 @@
             <img src="/images/right.png" alt="right.svg" id="right-img">
         </div>
     </div>
-    <div id="about-section">
-        <div id="about-section-img">
-            <img src="/images/arbi.png" alt="Me.png">
+    <div id="about-section" class="flex flex-row" style="gap: 50px;">
+        <div id="about-section-img" class="col-50 h-600">
+            <img src="/images/arbi.png" alt="Me.png" class="mx-auto mt-100" style="display: block;">
         </div>
-        <div id="about-section-detail">
-            <p class="one">ONE YEAR ALL YOU NEED</p>
-            <h1>About Us</h1>
-            <p class="paragraph-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <div id="about-section-detail" class="col-55 mt-1 p-100">
+            <p class="one font-arial font-weight-500 font-16">ONE YEAR ALL YOU NEED</p>
+            <h1 class="font-arial font-weight-700 mt-30 mb-30">About Us</h1>
+            <p class="paragraph-about font-arial font-weight-500 font-16 mt-40 mb-40" style="word-spacing: 5px; line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Neque architecto laudantium, nam dolorem, nihil vero placeat 
                 sapiente sunt alias voluptatum soluta temporibus autem consequuntur 
                 dolor labore officiis est. Aperiam, optio!
             </p>
-            <p class="paragraph-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <p class="paragraph-about font-arial font-weight-500 font-16 mt-40 mb-40" style="word-spacing: 5px; line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Neque architecto laudantium, nam dolorem, nihil vero placeat 
                 sapiente sunt alias voluptatum soluta temporibus autem consequuntur 
                 dolor labore officiis est. Aperiam, optio!
             </p>
-            <button class="hire-button-about">Hire Now</button>
+            <button class="hire-button-about col-40 h-20 bg-secondary border-radius-5 text-white btn" style="font-size: large; border-color: transparent;">Hire Now</button>
         </div>
     </div>
 
