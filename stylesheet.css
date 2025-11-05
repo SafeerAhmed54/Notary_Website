@@ -680,8 +680,6 @@ nav {
 
 .whatsapp-button {
     background-color: rgb(31, 215, 31);
-    width: 40%;
-    height: 50px;
     border: none;
     display: flex;
     align-items: center;
@@ -788,6 +786,10 @@ nav {
     padding-right: 25%;
 }
 
+.image-container{
+    width: 75%;
+}
+
 .office-image-container{
     width: 100%;
     height: auto;
@@ -795,9 +797,37 @@ nav {
 
 .office-image{
     display: block;
-    
+    width: 100%;
+    height: auto;
 }
 
 .col-85{
-    width: 85%;
+    width: 80%;
 }
+
+.Token-Form-Container{
+    background-image: url(/images/leads-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+}
+
+.h-auto{
+    height: auto;
+}
+
+.h-cover{
+    height: 100%;
+}
+
+.pt-10per{
+    padding-top: 3%;
+}
+
+.pb-10per{
+    padding-bottom: 5%;
+}
+
+
