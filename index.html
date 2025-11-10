@@ -12,22 +12,91 @@
 
     <!-- Navigation -->
 
-    <nav class="grid grid-auto p-25 align-center">
+    <nav id="nav-bar" class="flex flex-row p-25 justify-around">
         <div class="left-side">
             <img src="images/blue-logo.svg" alt="logo.png">
         </div>
         <div class="right-side grid grid-auto">
-            <span id="lang-buttons" class="grid grid-auto border-radius-15">
-                <a id="lang-button-eng" class="border-radius-15 p-5 testimonial">english</a>
+            <span id="lang-buttons" class="grid grid-auto border-radius-15 bg">
+                <a id="lang-button-eng" class="border-radius-15 p-5 testimonial color-white">english</a>
                 <a id="lang-button-arabic" class="border-radius-15 p-5 testimonial">arabic</a>
             </span>
-            <button id="contact-button" class="bg-white border-radius-10 border-contact-nav testimonial-without">Contact</button>
+            <button id="contact-button"
+                class="bg-white border-radius-10 border-contact-nav testimonial-without">Contact</button>
         </div>
     </nav>
 
     <!-- Main Page -->
 
-    <section id="main-page" class="grid grid-50-50">
+    <section>
+        <div>
+            <div id="main-page" class="flex flex-row col-100">
+                <div id="left-side-main" class="bg-transparent p-100 h-500 flex flex-col justify-center col-50">
+                    <p
+                        class="main-logo bg-light text-primary font-20 font-arial font-weight-500 mb-20 border-radius-20 p-5 text-center">
+                        Notary Services</p>
+                    <h1 class="font-48 font-arial font-weight-700 text-dark mb-10">Hire <span class="highlight">Better
+                            Faster</span></h1>
+                    <h1 class="font-48 font-arial font-weight-700 text-dark mb-20">Legal talent</h1>
+                    <p class="text-gray font-16 mb-30">When you need us for improve your business,
+                        then come with us to help your business
+                        have reach it, you just sit and feel that goal.
+                    </p>
+                    <button id="hire-button" class="btn btn-secondary border-radius-8 font-16 col-30 h-30">Hire
+                        Now</button>
+                </div>
+                <div id="right-side-main" class="p-40 col-50">
+                    <div id="right-side-block" class="card col-100 h-100 p-10">
+                        <form action="">
+                            <table class="col-100">
+                                <h2 class="font-30 font-arial font-weight-500 text-center m-10">Leads Form</h2>
+                                <caption class="font-arial font-weight-500 m-10">Fill the form for entry</caption>
+                                <tr>
+                                    <td class="p-10">
+                                        <label for="name" class="font-arial font-weight-500 font-14">Full
+                                            Name</label><br>
+                                        <input type="text" name="name" id="name" placeholder="Enter Full Name"
+                                            class="form-input col-100" style="height: 40px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="p-10">
+                                        <label for="email" class="font-arial font-weight-500 font-14">Email</label><br>
+                                        <input type="email" name="email" id="email" placeholder="Enter Email Address"
+                                            class="form-input col-100" style="height: 40px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="p-10">
+                                        <label for="phone" class="font-arial font-weight-500 font-14">Phone
+                                            Number</label><br>
+                                        <input type="tel" name="phone" id="phone" placeholder="Enter Phone Number"
+                                            class="form-input col-100" style="height: 40px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="p-10">
+                                        <label for="message"
+                                            class="font-arial font-weight-500 font-14">Message</label><br>
+                                        <textarea name="message" id="message" placeholder="Enter Message"
+                                            class="form-input col-100" style="height: 40px; padding: 5px;"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="p-10">
+                                        <input type="submit" id="submit" name="submit"
+                                            class="btn btn-primary col-100 h-30 font-14">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="main-page" class="grid grid-50-50">
         <div id="left-side-main" class="bg-transparent p-100 h-500 flex flex-col justify-center">
             <p
                 class="main-logo bg-light text-primary font-20 font-arial font-weight-500 mb-20 border-radius-20 p-5 text-center">
@@ -85,7 +154,7 @@
                 </form>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Partner Section -->
 
@@ -134,28 +203,35 @@
     </section>
 
     <!-- About Section -->
-
-    <section id="about-section" class="flex flex-row" style="gap: 50px;">
-        <div id="about-section-img" class="col-50 h-600">
-            <img src="/images/arbi.png" alt="Me.png" class="ml-auto mt-10per" style="display: block;">
-        </div>
-        <div id="about-section-detail" class="col-55 mt-1 p-100">
-            <p class="one font-arial font-weight-500 font-16">ONE YEAR ALL YOU NEED</p>
-            <h1 class="font-arial font-weight-700 mt-30 mb-30">About Us</h1>
-            <p class="paragraph-about font-arial font-weight-500 font-16 mt-40 mb-40"
-                style="word-spacing: 5px; line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Neque architecto laudantium, nam dolorem, nihil vero placeat
-                sapiente sunt alias voluptatum soluta temporibus autem consequuntur
-                dolor labore officiis est. Aperiam, optio!
-            </p>
-            <p class="paragraph-about font-arial font-weight-500 font-16 mt-40 mb-40"
-                style="word-spacing: 5px; line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Neque architecto laudantium, nam dolorem, nihil vero placeat
-                sapiente sunt alias voluptatum soluta temporibus autem consequuntur
-                dolor labore officiis est. Aperiam, optio!
-            </p>
-            <button class="hire-button-about col-40 h-20 bg-secondary border-radius-5 text-white btn"
-                style="font-size: large; border-color: transparent;">Hire Now</button>
+    <section>
+        <div>
+            <div id="about-section" class="flex flex-row" style="gap: 50px;">
+                <div id="about-section-img" class="col-50 h-600">
+                    <img src="/images/arbi.png" alt="Me.png" class="ml-auto mt-10per" style="display: block;"
+                        id="about-img">
+                </div>
+                <div id="about-section-detail" class="col-55 mt-1 p-100">
+                    <p class="one font-arial font-weight-500 font-16">ONE YEAR ALL YOU NEED</p>
+                    <h1 class="font-arial font-weight-700 mt-30 mb-30">About Us</h1>
+                    <p class="paragraph-about font-arial font-weight-500 font-16 mt-40 mb-40"
+                        style="word-spacing: 5px; line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Neque architecto laudantium, nam dolorem, nihil vero placeat
+                        sapiente sunt alias voluptatum soluta temporibus autem consequuntur
+                        dolor labore officiis est. Aperiam, optio!
+                    </p>
+                    <p class="paragraph-about font-arial font-weight-500 font-16 mt-40 mb-40"
+                        style="word-spacing: 5px; line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Neque architecto laudantium, nam dolorem, nihil vero placeat
+                        sapiente sunt alias voluptatum soluta temporibus autem consequuntur
+                        dolor labore officiis est. Aperiam, optio!
+                    </p>
+                    <button id="hire-button-about"
+                        class="hire-button-about col-40 h-20 bg-secondary border-radius-5 text-white btn"
+                        style="font-size: large; border-color: transparent;">Hire Now</button>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -241,7 +317,7 @@
     <!-- Client Section -->
 
     <section class="client-section mt-50 mb-50">
-        <div>
+        <div class="max-width-1140px mx-auto">
             <div class="client-section-div bg-light p-10">
                 <div>
                     <h1 class="font-arial text-center mt-50 mb-10">
@@ -252,8 +328,9 @@
                         to help your business have reach it you
                         just sit and feel that goal.</p>
                 </div>
-                <div class="client-card-container flex flex-row flex-wrap gap-column-15 mb-40">
-                    <div class="client-card border-radius-5 box-shadow">
+                <div id="client-card-container"
+                    class="client-card-container flex flex-row gap-column-30 mb-40 flex-center">
+                    <div id="middle-client-cards" class="client-card border-radius-5 box-shadow">
                         <div class="header p-15 flex flex-row justify-content-space-between">
                             <div class="stars-container flex flex-row gap-column-5 align-self-center">
                                 <img src="/images/star.svg" alt="star.png">
@@ -278,32 +355,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="client-card border-radius-5 box-shadow">
-                        <div class="header p-15 flex flex-row justify-content-space-between">
-                            <div class="stars-container flex flex-row gap-column-5 align-self-center">
-                                <img src="/images/star.svg" alt="star.png">
-                                <img src="/images/star.svg" alt="star.png">
-                                <img src="/images/star.svg" alt="star.png">
-                                <img src="/images/star.svg" alt="star.png">
-                                <img src="/images/star.svg" alt="star.png">
-                            </div>
-                            <div class="google-logo-container">
-                                <img src="/images/google.svg" alt="google">
-                            </div>
-                        </div>
-                        <div class="client-review-content p-15">
-                            <p class="mt-10 mb-10 testimonial">1 month ago</p>
-                            <p class="mt-10 mb-10 text-align-justify testimonial">When you need us for improve
-                                your business, then come with us
-                                to help your business have reach it you
-                                just sit and feel that goal.
-                            </p>
-                            <p class="testimonial mt-10 mb-10 font-weight-700">
-                                Jhon Doe
-                            </p>
-                        </div>
-                    </div>
-                    <div class="client-card border-radius-5 box-shadow">
+                    <div id="middle-client-cards" class="client-card border-radius-5 box-shadow">
                         <div class="header p-15 flex flex-row justify-content-space-between">
                             <div class="stars-container flex flex-row gap-column-5 align-self-center">
                                 <img src="/images/star.svg" alt="star.png">
@@ -328,7 +380,32 @@
                             </p>
                         </div>
                     </div>
-                    <div class="client-card border-radius-5 box-shadow">
+                    <div id="middle-client-cards" class="client-card border-radius-5 box-shadow">
+                        <div class="header p-15 flex flex-row justify-content-space-between">
+                            <div class="stars-container flex flex-row gap-column-5 align-self-center">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                                <img src="/images/star.svg" alt="star.png">
+                            </div>
+                            <div class="google-logo-container">
+                                <img src="/images/google.svg" alt="google">
+                            </div>
+                        </div>
+                        <div class="client-review-content p-15">
+                            <p class="mt-10 mb-10 testimonial">1 month ago</p>
+                            <p class="mt-10 mb-10 text-align-justify testimonial">When you need us for improve
+                                your business, then come with us
+                                to help your business have reach it you
+                                just sit and feel that goal.
+                            </p>
+                            <p class=" mt-10 mb-10 testimonial font-weight-700">
+                                Jhon Doe
+                            </p>
+                        </div>
+                    </div>
+                    <div id="middle-client-cards" class="client-card border-radius-5 box-shadow">
                         <div class="header p-15 flex flex-row justify-content-space-between">
                             <div class="stars-container flex flex-row gap-column-5 align-self-center">
                                 <img src="/images/star.svg" alt="star.png">
@@ -422,9 +499,10 @@
     <!-- Online Section -->
     <section>
         <div class="Online-Section-Container-Div mx-auto">
-            <div class="Online-flex-container flex flex-row justify-content-space-between bg-blue border-radius-20">
-                <div class="Online-Left-Side col-60">
-                    <h1 class="testimonial-without color-white mb-5 pr-25per">Online Token</h1>
+            <div id="Online-Section-Container"
+                class="Online-flex-container flex flex-row justify-content-space-between bg-blue border-radius-20">
+                <div id="Online-Left" class="Online-Left-Side col-60">
+                    <h1 id="heading-Online" class="testimonial-without color-white mb-5 pr-25per">Online Token</h1>
                     <p class="testimonial-without color-white mb-20 font-14 pr-25per">Lorem, ipsum dolor sit amet
                         consectetur adipisicing
                         elit. <br>
@@ -439,7 +517,7 @@
                         Get Your Token
                     </button>
                 </div>
-                <div class="Online-Right-Side col-40 border-radius-20">
+                <div id="Online-Right" class="Online-Right-Side col-40 border-radius-20">
                     <img src="/images/vr.png" alt="vr.png" class="vr-image mx-auto">
                 </div>
             </div>
@@ -507,8 +585,8 @@
 
     <section>
         <div class="Token-Form-Container mt-50">
-            <div class="flex flex-row">
-                <div class="Online-Left-Side col-50 h-auto flex flex-center">
+            <div id="Online-Token" class="flex flex-row">
+                <div id="Online-Token-Left" class="Online-Left-Side col-50 h-auto flex flex-center">
                     <div class="">
                         <h1 class="testimonial-without  mb-5 pr-25per">Online Token</h1>
                         <p class="testimonial-without mb-20 font-14 pr-25per">Lorem, ipsum dolor sit amet
@@ -526,8 +604,8 @@
                         </button>
                     </div>
                 </div>
-                <div class="p-40 col-50">
-                    <div class="col-80 h-auto p-10 bg-white border-radius-5 box-shadow">
+                <div id="Online-Token-Right" class="p-40 col-50">
+                    <div id="Online-Token-Right-Form" class="col-80 h-auto p-10 bg-white border-radius-5 box-shadow">
                         <form action="">
                             <table class="col-100">
                                 <h2 class="font-30 font-arial font-weight-500 text-center m-10">Leads Form</h2>
@@ -576,22 +654,25 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Footer -->
 
     <footer class="footer-section">
         <div class="footer-container bg-blue col-100 h-cover">
-            <div class="footer-flex-container flex flex-row justify-content-space-between h-auto col-80 mx-auto pt-10per pb-10per">
-                <div>
-                    <img src="images/white-logo.svg" alt="logo.png">
+            <div
+                class="footer-flex-container flex flex-row justify-content-space-between h-auto col-80 mx-auto pt-10per pb-10per">
+                <div class="white-logo-div">
+                    <img src="images/white-logo.svg" alt="logo.png" id="white-logo-image">
                 </div>
                 <div>
-                    <button id="contact-button" class="bg-blue border-radius-10 color-white border-contact-footer">Contact</button>
+                    <button id="contact-button"
+                        class="bg-blue border-radius-10 color-white border-contact-footer" id="footer-contact-button">Contact</button>
                 </div>
             </div>
             <hr class="col-80 mx-auto">
             <div>
-                <p class="testimonial-without color-white text-center p-10 font-14">&copy; Copyright. All Rights Reserved</p>
+                <p class="testimonial-without color-white text-center p-10 font-14">&copy; Copyright. All Rights
+                    Reserved</p>
             </div>
         </div>
     </footer>
